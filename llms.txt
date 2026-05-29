@@ -16,11 +16,11 @@ Levi Palacios is a Junior Developer at WeSpark, El Salvador's innovation agency,
 - Interactive Learning: gamified interfaces, visual simulations, EdTech products
 
 ## Links
-- [Website (EN)](https://levi.dev)
-- [Website (ES)](https://levi.dev/es/)
-- [Full profile](https://levi.dev/llms-full.txt)
-- [LinkedIn](https://www.linkedin.com/in/levipalacios/)
-- [GitHub](https://github.com/most-improve123)
-- [Instagram](https://www.instagram.com/as.men2006)
-- [WeSpark Team](https://www.wespark.io/team)
+-https://most-improve123.github.io/LEVIBIO.github.io/
+-https://most-improve123.github.io/LEVIBIO.github.io/
+-https://most-improve123.github.io/LEVIBIO.github.io/llms-full.txt
+-https://www.linkedin.com/in/levipalacios/
+-https://github.com/most-improve123
+-https://www.instagram.com/as.men2006
+-https://www.wespark.io/team
 - Email: levi@wespark.io
