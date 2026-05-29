@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Levi Palacios — AI Automation &amp; Bitcoin Developer</title>
+  <meta name="description" content="Levi Palacios is a software developer at WeSpark, El Salvador, specializing in AI automation, Bitcoin infrastructure, and interactive learning technology.">
+
+  <!-- Canonical + hreflang -->
+  <link rel="canonical" href="https://levi.dev/">
+  <link rel="alternate" hreflang="en" href="https://levi.dev/">
+  <link rel="alternate" hreflang="es" href="https://levi.dev/es/">
+  <link rel="alternate" hreflang="x-default" href="https://levi.dev/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Levi Palacios — AI Automation &amp; Bitcoin Developer">
+  <meta property="og:description" content="Junior Developer at WeSpark building AI automation systems, Bitcoin education tools, and interactive learning experiences.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://levi.dev/">
+  <meta property="og:image" content="https://levi.dev/images/photos/levi-hero.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Levi Palacios">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_SV">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Levi Palacios — AI Automation &amp; Bitcoin Developer">
+  <meta name="twitter:description" content="Junior Developer at WeSpark building AI automation systems, Bitcoin education tools, and interactive learning experiences.">
+  <meta name="twitter:image" content="https://levi.dev/images/photos/levi-hero.jpg">
+
+  <!-- Search -->
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Levi Palacios">
+  <meta name="keywords" content="Levi Palacios, AI automation, Bitcoin developer, Lightning Network, WeSpark, El Salvador, interactive learning, software developer">
+
+  <!-- Icons -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Schema.org Person JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Levi Palacios",
+    "jobTitle": "Junior Developer, AI Automations & Visual Learning",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "WeSpark",
+      "url": "https://www.wespark.io"
+    },
+    "nationality": "Salvadoran",
+    "url": "https://levi.dev",
+    "email": "levi@wespark.io",
+    "sameAs": [
+      "https://levi.dev",
+      "https://www.linkedin.com/in/levipalacios/",
+      "https://github.com/most-improve123",
+      "https://www.instagram.com/as.men2006",
+      "https://www.facebook.com/LeviPalacios",
+      "https://www.wespark.io/team"
+    ],
+    "knowsAbout": [
+      "Artificial Intelligence",
+      "AI Automation",
+      "Bitcoin",
+      "Lightning Network",
+      "Liquid Network",
+      "Nostr",
+      "Software Development",
+      "Interactive Learning",
+      "Computer Engineering",
+      "Blockchain"
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"></noscript>
+
+  <!-- Hero image preload -->
+  <link rel="preload" as="image" href="images/photos/levi-hero.webp" type="image/webp">
+
+  <style>
+    :root {
+      --bg: #07090F;
+      --bg2: #0D1017;
+      --bg3: #121722;
+      --ink: #E8E4DC;
+      --ink2: #9B97A0;
+      --orange: #F7931A;
+      --orange2: #FFB347;
+      --purple: #7B6FFF;
+      --border: rgba(255,255,255,0.07);
+      --max: 1160px;
+      --r: 14px;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', system-ui, sans-serif;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, h4 { font-family: 'Space Grotesk', system-ui, sans-serif; line-height: 1.2; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 clamp(1.5rem, 5vw, 3.5rem);
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(7,9,15,0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav .inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 clamp(1.5rem, 5vw, 3.5rem);
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: -0.02em;
+    }
+    .nav-logo span { color: var(--orange); }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.9rem;
+      color: var(--ink2);
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--ink); }
+    .lang { font-size: 0.85rem; color: var(--ink2); letter-spacing: 0.05em; }
+    .lang .active { color: var(--orange); font-weight: 600; }
+    .lang a:hover { color: var(--ink); }
+
+    /* HERO */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: 64px;
+      position: relative;
+      overflow: hidden;
+    }
+    #hero::before {
+      content: '';
+      position: absolute;
+      top: -200px; right: -200px;
+      width: 700px; height: 700px;
+      background: radial-gradient(circle, rgba(247,147,26,0.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    #hero::after {
+      content: '';
+      position: absolute;
+      bottom: -100px; left: -100px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(123,111,255,0.09) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      padding: 5rem 0;
+    }
+    .hero-text { position: relative; z-index: 1; }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(247,147,26,0.1);
+      border: 1px solid rgba(247,147,26,0.25);
+      border-radius: 100px;
+      padding: 0.35rem 0.9rem;
+      font-size: 0.8rem;
+      color: var(--orange2);
+      margin-bottom: 1.5rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+    }
+    .hero-badge::before {
+      content: '';
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--orange);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+    .hero-name {
+      font-size: clamp(2.8rem, 6vw, 4.5rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-bottom: 1rem;
+    }
+    .hero-name span { color: var(--orange); }
+    .hero-title {
+      font-size: clamp(0.95rem, 2vw, 1.15rem);
+      color: var(--ink2);
+      margin-bottom: 1.5rem;
+    }
+    .hero-desc {
+      font-size: 1rem;
+      color: var(--ink2);
+      max-width: 480px;
+      line-height: 1.8;
+      margin-bottom: 2.5rem;
+    }
+    .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.6rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary { background: var(--orange); color: #07090F; }
+    .btn-primary:hover {
+      background: var(--orange2);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(247,147,26,0.3);
+    }
+    .btn-secondary { background: transparent; color: var(--ink); border: 1px solid var(--border); }
+    .btn-secondary:hover { border-color: rgba(255,255,255,0.2); background: rgba(255,255,255,0.04); }
+
+    /* Hero photo */
+    .hero-photo { position: relative; z-index: 1; display: flex; justify-content: center; }
+    .hero-photo-wrap { position: relative; width: min(420px, 100%); }
+    .hero-photo-wrap::before {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      border-radius: 24px;
+      background: linear-gradient(135deg, var(--orange) 0%, var(--purple) 100%);
+      z-index: -1;
+      opacity: 0.6;
+    }
+    .hero-photo-wrap img {
+      width: 100%;
+      border-radius: 22px;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+    }
+
+    /* Floating tags */
+    .float-tag {
+      position: absolute;
+      background: rgba(13,16,23,0.92);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.5rem 0.85rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--ink);
+      white-space: nowrap;
+      animation: floatY 4s ease-in-out infinite;
+    }
+    .float-tag.one { top: 10%; left: -18%; animation-delay: 0s; }
+    .float-tag.two { bottom: 14%; right: -12%; animation-delay: 1.5s; }
+    .float-tag.three { top: 46%; left: -22%; animation-delay: 0.8s; }
+    .float-tag .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 6px; }
+    .float-tag.one .dot { background: var(--orange); }
+    .float-tag.two .dot { background: var(--purple); }
+    .float-tag.three .dot { background: #4CAF82; }
+    @keyframes floatY {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-7px); }
+    }
+
+    /* SECTION SHARED */
+    section { padding: 5rem 0; }
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--orange);
+      margin-bottom: 0.75rem;
+    }
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+    .section-sub {
+      font-size: 1rem;
+      color: var(--ink2);
+      max-width: 560px;
+      line-height: 1.75;
+    }
+    .section-header { margin-bottom: 3.5rem; }
+
+    /* ABOUT */
+    #about { background: var(--bg2); }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .about-text p { font-size: 1rem; color: var(--ink2); line-height: 1.8; margin-bottom: 1.25rem; }
+    .about-text p:last-child { margin-bottom: 0; }
+    .about-text strong { color: var(--ink); font-weight: 600; }
+    .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    .stat-card {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 1.5rem;
+      transition: border-color 0.2s;
+    }
+    .stat-card:hover { border-color: rgba(247,147,26,0.3); }
+    .stat-number { font-family: 'Space Grotesk', sans-serif; font-size: 2rem; font-weight: 700; color: var(--orange); line-height: 1; margin-bottom: 0.35rem; }
+    .stat-label { font-size: 0.82rem; color: var(--ink2); line-height: 1.45; }
+
+    /* FOCUS AREAS */
+    #focus { background: var(--bg); }
+    .focus-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .focus-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 2rem;
+      transition: all 0.25s;
+      position: relative;
+      overflow: hidden;
+    }
+    .focus-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--orange), transparent);
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+    .focus-card:hover {
+      border-color: rgba(247,147,26,0.22);
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+    .focus-card:hover::before { opacity: 1; }
+    .focus-icon { font-size: 2rem; margin-bottom: 1rem; }
+    .focus-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; }
+    .focus-card p { font-size: 0.9rem; color: var(--ink2); line-height: 1.7; }
+    .focus-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1.25rem; }
+    .tag {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.2rem 0.55rem;
+      font-size: 0.72rem;
+      color: var(--ink2);
+      font-weight: 500;
+    }
+
+    /* EXPERIENCE */
+    #experience { background: var(--bg2); }
+    .exp-list { display: flex; flex-direction: column; gap: 1.5rem; }
+    .exp-card {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 1.75rem 2rem;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1.5rem;
+      align-items: start;
+      transition: border-color 0.2s;
+    }
+    .exp-card:hover { border-color: rgba(247,147,26,0.2); }
+    .exp-logo {
+      width: 48px; height: 48px;
+      border-radius: 12px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+    .exp-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.2rem; }
+    .exp-company { font-size: 0.9rem; color: var(--orange); font-weight: 500; margin-bottom: 0.25rem; }
+    .exp-period { font-size: 0.8rem; color: var(--ink2); margin-bottom: 0.75rem; }
+    .exp-desc { font-size: 0.9rem; color: var(--ink2); line-height: 1.7; }
+
+    /* CONTACT */
+    #contact { background: var(--bg); }
+    .contact-wrap {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: clamp(2rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .contact-wrap::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 300px; height: 300px;
+      background: radial-gradient(circle, rgba(247,147,26,0.08), transparent 70%);
+      pointer-events: none;
+    }
+    .contact-text p { font-size: 1rem; color: var(--ink2); line-height: 1.75; margin-top: 0.75rem; margin-bottom: 2rem; }
+    .contact-links { display: flex; flex-direction: column; gap: 1rem; }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.9rem 1.25rem;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      transition: all 0.2s;
+      font-size: 0.9rem;
+    }
+    .contact-item:hover { border-color: rgba(247,147,26,0.3); background: rgba(247,147,26,0.04); }
+    .contact-icon { font-size: 1.1rem; flex-shrink: 0; }
+    .contact-label { font-size: 0.75rem; color: var(--ink2); display: block; margin-bottom: 0.1rem; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; }
+    .contact-value { font-size: 0.9rem; color: var(--ink); }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg2);
+      border-top: 1px solid var(--border);
+      padding: 2rem 0;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-copy { font-size: 0.85rem; color: var(--ink2); }
+    .footer-credit { font-size: 0.8rem; color: var(--ink2); }
+    .footer-credit a { color: var(--orange); transition: opacity 0.2s; }
+    .footer-credit a:hover { opacity: 0.7; }
+
+    /* REVEAL */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; text-align: center; }
+      .hero-desc { margin: 0 auto 2.5rem; }
+      .hero-ctas { justify-content: center; }
+      .hero-photo { order: -1; }
+      .hero-photo-wrap { max-width: 260px; margin: 0 auto; }
+      .float-tag { display: none; }
+      .about-grid { grid-template-columns: 1fr; }
+      .focus-grid { grid-template-columns: 1fr; }
+      .contact-wrap { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .about-stats { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="inner">
+      <div class="nav-logo">LP<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#focus">Focus</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="lang"><span class="active">EN</span> · <a href="/es/">ES</a></div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="wrap">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-badge">Open to collaborations</div>
+          <h1 class="hero-name">Levi<br><span>Palacios</span></h1>
+          <p class="hero-title">Junior Developer, AI Automations &amp; Visual Learning · WeSpark, El Salvador</p>
+          <p class="hero-desc">
+            I build AI automation systems, Bitcoin education tools, and interactive
+            learning experiences. My work lives at the intersection of software,
+            intelligence, and human understanding.
+          </p>
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#focus" class="btn btn-secondary">See my focus</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <div class="hero-photo-wrap">
+            <picture>
+              <source srcset="images/photos/levi-hero.webp" type="image/webp">
+              <img
+                src="images/photos/levi-hero.jpg"
+                alt="Levi Palacios, AI and Bitcoin Developer"
+                fetchpriority="high"
+                width="420"
+                height="420"
+              >
+            </picture>
+            <div class="float-tag one"><span class="dot"></span>AI Automations</div>
+            <div class="float-tag three"><span class="dot"></span>Bitcoin Dev</div>
+            <div class="float-tag two"><span class="dot"></span>EdTech Builder</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p class="section-label">About</p>
+          <h2 class="section-title">Making advanced tech<br>understandable</h2>
+          <p>
+            I approach software as an opportunity to simplify complexity. Whether through
+            gamified interfaces, visual simulations, intelligent assistants, or process
+            automation, every project I build aims to bridge technical innovation with
+            <strong>human understanding</strong>.
+          </p>
+          <p>
+            I'm studying Computer Engineering while working at <strong>WeSpark</strong>,
+            El Salvador's innovation agency, where I contribute to automation
+            infrastructures, AI-enhanced learning tools, and visual product experiences
+            supporting enterprise clients and national educational programs.
+          </p>
+          <p>
+            My path through Bitcoin-native environments, including intensive bootcamps
+            and collaborative projects with <strong>Blockstream</strong> and
+            <strong>Cubo+ Devs</strong>, gave me hands-on experience with the
+            Lightning Network, Liquid Network, and Nostr-based technologies.
+          </p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number">AI</div>
+            <div class="stat-label">Automation workflows and intelligent interfaces</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">L2</div>
+            <div class="stat-label">Bitcoin second-layer: Lightning &amp; Liquid</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">SV</div>
+            <div class="stat-label">Based in El Salvador, building globally</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">3x</div>
+            <div class="stat-label">Focus areas: AI, Bitcoin, Interactive Learning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="focus">
+    <div class="wrap">
+      <div class="section-header reveal">
+        <p class="section-label">Focus Areas</p>
+        <h2 class="section-title">Three converging frontiers</h2>
+        <p class="section-sub">Each discipline reinforces the others. Together they form the foundation of everything I build.</p>
+      </div>
+
+      <div class="focus-grid">
+        <div class="focus-card reveal">
+          <div class="focus-icon">🤖</div>
+          <h3>AI Automation</h3>
+          <p>
+            Designing automation architectures, workflow logic, and AI-powered interfaces
+            that reduce manual tasks and accelerate business processes. From intelligent
+            response systems to full workflow pipelines ready to deploy.
+          </p>
+          <div class="focus-tags">
+            <span class="tag">Automation</span>
+            <span class="tag">AI Workflows</span>
+            <span class="tag">Intelligent Agents</span>
+            <span class="tag">Process Design</span>
+          </div>
+        </div>
+
+        <div class="focus-card reveal">
+          <div class="focus-icon">⚡</div>
+          <h3>Bitcoin Infrastructure</h3>
+          <p>
+            Building on second-layer financial systems with a focus on education and
+            accessibility. Lightning transaction simulators, blockchain visualization
+            environments, and simplified onboarding experiences for everyday users.
+          </p>
+          <div class="focus-tags">
+            <span class="tag">Lightning Network</span>
+            <span class="tag">Liquid Network</span>
+            <span class="tag">Nostr</span>
+            <span class="tag">Freedom Tech</span>
+          </div>
+        </div>
+
+        <div class="focus-card reveal">
+          <div class="focus-icon">🎮</div>
+          <h3>Interactive Learning</h3>
+          <p>
+            Creating gamified interfaces, digital simulations, and visual learning
+            tools that make complex topics approachable. Technology that teaches
+            by doing, not just by telling.
+          </p>
+          <div class="focus-tags">
+            <span class="tag">Gamification</span>
+            <span class="tag">Visual Simulation</span>
+            <span class="tag">EdTech</span>
+            <span class="tag">UX Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-header reveal">
+        <p class="section-label">Experience</p>
+        <h2 class="section-title">Where I've built</h2>
+      </div>
+
+      <div class="exp-list">
+        <div class="exp-card reveal">
+          <div class="exp-logo">⚡</div>
+          <div>
+            <div class="exp-title">Junior Developer, AI Automations &amp; Visual Learning</div>
+            <div class="exp-company">WeSpark — El Salvador</div>
+            <div class="exp-period">Current</div>
+            <div class="exp-desc">
+              Contributing to automation infrastructures, AI-enhanced learning tools,
+              interactive digital simulations, and visual product experiences. Working at
+              the intersection of software development and innovation methodology,
+              supporting enterprise clients and national educational programs.
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-card reveal">
+          <div class="exp-logo">₿</div>
+          <div>
+            <div class="exp-title">Bitcoin Developer Training</div>
+            <div class="exp-company">Cubo+ Devs / Blockstream Ecosystem</div>
+            <div class="exp-period">Technical Formation</div>
+            <div class="exp-desc">
+              Intensive bootcamps and collaborative blockchain projects translating
+              decentralized protocols into functional educational tools. Built interactive
+              Lightning transaction simulators, blockchain visualization environments,
+              and simplified onboarding experiences for financial systems.
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-card reveal">
+          <div class="exp-logo">🎓</div>
+          <div>
+            <div class="exp-title">Computer Engineering</div>
+            <div class="exp-company">Formal Studies</div>
+            <div class="exp-period">In Progress</div>
+            <div class="exp-desc">
+              Pursuing formal studies in Computer Engineering alongside specialized
+              programs in Artificial Intelligence and Bitcoin infrastructure, building
+              a multidisciplinary foundation spanning traditional software engineering
+              and cutting-edge decentralized technology ecosystems.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-wrap reveal">
+        <div class="contact-text">
+          <p class="section-label">Contact</p>
+          <h2 class="section-title">Let's build<br>something</h2>
+          <p>
+            Open to collaborations on AI automation, Bitcoin education,
+            or interactive learning projects. Reach out and let's talk.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:levi@wespark.io" class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">levi@wespark.io</span>
+            </div>
+          </a>
+          <a href="https://www.wespark.io" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">🌐</span>
+            <div>
+              <span class="contact-label">Company</span>
+              <span class="contact-value">wespark.io</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-inner">
+        <p class="footer-copy">&copy; 2026 Levi Palacios</p>
+        <div class="lang"><span class="active">EN</span> · <a href="/es/">ES</a></div>
+        <p class="footer-credit">Built by <a href="https://everybodyknowsyou.com" target="_blank" rel="noopener">everybodyknowsyou.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(el => {
+        if (el.isIntersecting) { el.target.classList.add('visible'); io.unobserve(el.target); }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+
+</body>
+</html>

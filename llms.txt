@@ -1,0 +1,26 @@
+# Levi Palacios
+
+> Software developer at WeSpark (El Salvador) specializing in AI automation, Bitcoin infrastructure, and interactive learning technology.
+
+## About
+Levi Palacios is a Junior Developer at WeSpark, El Salvador's innovation agency, where he builds AI automation systems, intelligent workflow pipelines, and interactive visual learning tools. He has specialized hands-on experience with Bitcoin second-layer systems including the Lightning Network and Liquid Network, developed through intensive bootcamps with Cubo+ Devs and the Blockstream ecosystem. He is also pursuing formal studies in Computer Engineering. His work philosophy centers on making advanced technology understandable, interactive, and usable for everyday people.
+
+## Work
+- Junior Developer, AI Automations & Visual Learning — WeSpark, El Salvador (Current) — https://www.wespark.io
+- Bitcoin Developer Training — Cubo+ Devs / Blockstream Ecosystem (Technical Formation)
+- Computer Engineering — Formal Studies (In Progress)
+
+## Focus Areas
+- AI Automation: automation architecture, workflow logic design, intelligent interfaces
+- Bitcoin Infrastructure: Lightning Network, Liquid Network, Nostr, blockchain education tools
+- Interactive Learning: gamified interfaces, visual simulations, EdTech products
+
+## Links
+- [Website (EN)](https://levi.dev)
+- [Website (ES)](https://levi.dev/es/)
+- [Full profile](https://levi.dev/llms-full.txt)
+- [LinkedIn](https://www.linkedin.com/in/levipalacios/)
+- [GitHub](https://github.com/most-improve123)
+- [Instagram](https://www.instagram.com/as.men2006)
+- [WeSpark Team](https://www.wespark.io/team)
+- Email: levi@wespark.io

@@ -1,0 +1,54 @@
+# Levi Palacios — Full Profile
+
+> Software developer at WeSpark (El Salvador) specializing in AI automation, Bitcoin infrastructure, and interactive learning technology. His work centers on making advanced technologies understandable, interactive, and usable for everyday people.
+
+## About
+Levi Palacios is a rising software developer and emerging innovation builder focused on the intersection of Artificial Intelligence, Bitcoin technologies, and next-generation learning systems. His work centers on designing practical digital solutions that combine automation, visual interaction, and decentralized technologies to solve real-world educational and operational challenges.
+
+From an early stage in his technical formation, Levi demonstrated a strong inclination toward applied software development, not only learning programming fundamentals but actively seeking cutting-edge ecosystems where technology is reshaping human systems. This curiosity led him to pursue formal studies in Computer Engineering while simultaneously entering specialized programs in Artificial Intelligence and Bitcoin infrastructure, building a multidisciplinary foundation uncommon for developers at his stage.
+
+## Current Role
+Levi serves as Junior Developer, AI Automations & Visual Learning at WeSpark, El Salvador's innovation agency known for designing AI products, institutional innovation programs, and large-scale educational initiatives. In this role, he contributes to the development of automation infrastructures, AI-enhanced learning tools, interactive digital simulations, and visual product experiences that support both enterprise clients and national educational programs.
+
+At WeSpark, Levi operates at the intersection of software development and innovation methodology, helping transform abstract concepts into engaging, technology-driven systems that are easier to understand, faster to deploy, and more effective to scale.
+
+## Bitcoin Infrastructure Experience
+His technical trajectory accelerated through involvement in Bitcoin-native development environments, where he deepened his understanding of second-layer financial systems such as the Lightning Network and Liquid Network. Through intensive technical bootcamps and collaborative blockchain projects with Cubo+ Devs and the Blockstream ecosystem, Levi worked on:
+- Interactive Lightning transaction simulators
+- Blockchain visualization environments
+- Simplified user experiences for financial onboarding
+- Nostr-based technology exploration
+
+These experiences reinforced his long-term interest in financial sovereignty and decentralized systems engineering, and positioned him within the Freedom Tech ecosystem alongside organizations like Blockstream and Bitcoin-focused technical initiatives.
+
+## AI Automation Work
+Rather than approaching AI purely from a theoretical or academic lens, Levi specializes in automation systems, AI-powered workflows, and intelligent product integrations capable of reducing manual tasks, accelerating business processes, and enhancing digital learning experiences. His development work includes:
+- Automation architecture design
+- Workflow logic systems
+- Intelligent response systems
+- AI-assisted user interfaces aimed at improving internal efficiency and user engagement
+
+## Interactive Learning
+His work aligns with projects involving gamified learning, AI workflow implementation, intelligent web applications, and Bitcoin education infrastructure. He consistently approaches software as an opportunity to simplify complexity through gamified interfaces, visual simulations, and process automation.
+
+## Projects (Types)
+- Educational blockchain models
+- Lightning Network simulators
+- AI-powered workflow agents
+- Dynamic learning games
+- Custom web systems
+- Visual-first digital experiences
+
+## Professional Focus
+Three converging frontiers:
+1. Artificial Intelligence Automation
+2. Bitcoin Infrastructure
+3. Interactive Learning Technology
+
+## Contact
+- Website: https://levi.dev
+- Email: levi@wespark.io
+- Employer: https://www.wespark.io
+
+## Location
+El Salvador
